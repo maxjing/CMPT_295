@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+long prac1(long *, long *,int n);
+
+long x[5] = {23,3,5,9,7};
+long y[5] = {2,3,4,5,7};
+//this dot of x and y is = 46+9+20+45+49 =169
+
+void main () {
+	int n =5;
+	printf("The dot product of (%ld,%ld,%ld,%ld,%ld) and (%ld,%ld,%ld,%ld,%ld) is %ld.\n", x[0], x[1], x[2], x[3],x[4], y[0], y[1], y[2],y[3], y[4], prac1(x,y,n));
+	return;
+}
